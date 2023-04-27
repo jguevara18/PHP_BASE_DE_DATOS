@@ -1,0 +1,20 @@
+{
+    "name": "user/php-database",
+    "description": "Proyecto de base de datos",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jesus Guevara",
+            "email": "jesusguevara23@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "App\\": "app/",
+            "Database\\":"database/",
+            "Router\\": "router/"
+        }
+    },
+    "require": {}
+}
